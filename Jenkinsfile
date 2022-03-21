@@ -14,6 +14,7 @@ pipleine {
         stage ("build"){
             steps {
                 sh "mvn clean install"
+		echo "this is from feature-1"
             }
         }
         stage ("test"){
